@@ -10,4 +10,7 @@ def vote():
      if 1 <= choice <= len(candidates):
         selected = candidates[choice - 1]
         votes[selected] += 1
+print(f"Thanks for voting for {selected}!")
+    else:
+        print("Invalid choice. Try again.")
 
