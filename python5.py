@@ -7,3 +7,7 @@ def display_candidates():
 def vote():
     display_candidates()
     choice = int(input("Enter the number of your chosen candidate: "))
+     if 1 <= choice <= len(candidates):
+        selected = candidates[choice - 1]
+        votes[selected] += 1
+
