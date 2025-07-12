@@ -19,3 +19,8 @@ for name, count in votes.items():
         print(f"{name}: {count} votes")
         winner = max(votes, key=votes.get)
     print(f"\n🏆 Winner: {winner}")
+    num_voters = int(input("Enter number of voters: "))
+for _ in range(num_voters):
+    vote()
+
+show_results()
