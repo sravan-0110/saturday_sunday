@@ -17,3 +17,5 @@ def show_results():
     print("\n--- Voting Results ---")
 for name, count in votes.items():
         print(f"{name}: {count} votes")
+        winner = max(votes, key=votes.get)
+    print(f"\n🏆 Winner: {winner}")
