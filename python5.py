@@ -15,4 +15,5 @@ print(f"Thanks for voting for {selected}!")
         print("Invalid choice. Try again.")
 def show_results():
     print("\n--- Voting Results ---")
-
+for name, count in votes.items():
+        print(f"{name}: {count} votes")
