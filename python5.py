@@ -13,4 +13,6 @@ def vote():
 print(f"Thanks for voting for {selected}!")
     else:
         print("Invalid choice. Try again.")
+def show_results():
+    print("\n--- Voting Results ---")
 
