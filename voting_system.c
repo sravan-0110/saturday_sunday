@@ -52,3 +52,7 @@ int main() {
             case 0: printf("Exiting...\n"); break;
             default: printf("Invalid option. Try again.\n");
         }
+  } while (option != 0);
+
+    return 0;
+}
