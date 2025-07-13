@@ -34,4 +34,15 @@ void findWinner() {
     else
         printf("It's a tie or no votes cast.\n");
 }
+int main() {
+    int option;
+
+    do {
+        printf("\n--- Voting Menu ---\n");
+        printf("1. Cast Vote\n");
+        printf("2. View Votes\n");
+        printf("3. Show Winner\n");
+        printf("0. Exit\n");
+        printf("Enter option: ");
+        scanf("%d", &option);
 
