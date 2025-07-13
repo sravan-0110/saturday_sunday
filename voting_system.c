@@ -23,4 +23,15 @@ void showVotes() {
     printf("Candidate C: %d votes\n", votesC);
     printf("Spoiled Votes: %d\n", spoiledVotes);
 }
+void findWinner() {
+    printf("\n--- Winner ---\n");
+    if (votesA > votesB && votesA > votesC)
+        printf("Candidate A wins!\n");
+    else if (votesB > votesA && votesB > votesC)
+        printf("Candidate B wins!\n");
+    else if (votesC > votesA && votesC > votesB)
+        printf("Candidate C wins!\n");
+    else
+        printf("It's a tie or no votes cast.\n");
+}
 
