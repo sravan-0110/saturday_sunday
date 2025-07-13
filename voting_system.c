@@ -9,3 +9,11 @@ void castVote() {
     printf("3. Candidate C\n");
     printf("Enter your choice (1-3): ");
     scanf("%d", &choice);
+    switch (choice) {
+        case 1: votesA++; break;
+        case 2: votesB++; break;
+        case 3: votesC++; break;
+        default: spoiledVotes++; printf("Invalid vote counted as spoiled.\n");
+    }
+}
+
