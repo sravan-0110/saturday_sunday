@@ -16,4 +16,11 @@ void castVote() {
         default: spoiledVotes++; printf("Invalid vote counted as spoiled.\n");
     }
 }
+void showVotes() {
+    printf("\n--- Voting Results ---\n");
+    printf("Candidate A: %d votes\n", votesA);
+    printf("Candidate B: %d votes\n", votesB);
+    printf("Candidate C: %d votes\n", votesC);
+    printf("Spoiled Votes: %d\n", spoiledVotes);
+}
 
