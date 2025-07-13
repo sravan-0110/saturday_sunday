@@ -45,4 +45,10 @@ int main() {
         printf("0. Exit\n");
         printf("Enter option: ");
         scanf("%d", &option);
-
+ switch(option) {
+            case 1: castVote(); break;
+            case 2: showVotes(); break;
+            case 3: findWinner(); break;
+            case 0: printf("Exiting...\n"); break;
+            default: printf("Invalid option. Try again.\n");
+        }
