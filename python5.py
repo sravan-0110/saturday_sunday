@@ -25,3 +25,5 @@ for _ in range(num_voters):
 
 show_results()
 print("completed")
+print("line added")
+
