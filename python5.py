@@ -25,5 +25,10 @@ for _ in range(num_voters):
 
 show_results()
 print("completed")
+<<<<<<< HEAD
 print("line added")
+
+
+print("second line")
+>>>>>>> test1
 
