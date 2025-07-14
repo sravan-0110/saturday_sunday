@@ -24,3 +24,4 @@ for _ in range(num_voters):
     vote()
 
 show_results()
+print("completed")
