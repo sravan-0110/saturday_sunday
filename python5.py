@@ -22,5 +22,6 @@ for name, count in votes.items():
     num_voters = int(input("Enter number of voters: "))
 for _ in range(num_voters):
     vote()
-
+print("test2")
+print("line1")
 show_results()
